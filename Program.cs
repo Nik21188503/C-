@@ -7,7 +7,11 @@ namespace learn
     {
         static void Main(string[] args)
         {
-            LearnArray();
+            //LearnArray();
+            var Ninh = new People("Le Khac Ninh", 18, "2151062844");
+            var An = new People();
+            Console.WriteLine(Ninh.name);
+            Console.WriteLine(Ninh.ID);
         }
         static void LearnArray()
         {
