@@ -16,9 +16,31 @@ namespace learn
             //LearnString();
             //sealed k cho lop con ke thua 
             //Console.WriteLine(Intro.plus);
-            Staff staff = new Staff("Le Khac Nam",23,"0123456789",3.4,300);
+            /*Staff staff = new Staff("Le Khac Nam",23,"0123456789",3.4,300);
             Console.WriteLine(staff.money+"$");
+            int a = 5;
+            int b = 18;
+            SwapGenericTemplate<int>(ref a, ref b);
+            Console.WriteLine(a);*/
+            //AnonymousType();
+
+            /*int? age;
+            age = null;
+            //hasvalue kiem tra xem du lieu co bang null neu null tra ve false va neu k null tra ve true
+            if (age.HasValue)
+            {
+                Console.WriteLine("Not Null");
+            }
+            else
+            {
+                Console.WriteLine("null");
+            }
+            Console.WriteLine(age);*/
+            Studen studen = new Studen();
+            studen.Say();
+
         }
+
         static void LearnArray()
         {
             int[] array = { 1, 2, 5, 4 };
@@ -84,5 +106,28 @@ namespace learn
             Console.WriteLine("My name is "+stringBuil.Append("Le Khac Ninh").ToString());
 
         }
+        //ref <=> & c++ lam bien tham tti
+        //Generic or Template co the co 1 option hoac nnhieu option apple or class
+        static void SwapGenericTemplate<T>(ref T a, ref T b)
+        {
+            T temp;
+            temp = a;
+            a=b; b=temp;
+        }
+        //kieu vo danh
+        static void AnonymousType()
+        {
+            var obj = new
+            {
+                name="Le Khac Ninh",
+                age = 20,
+                nowMyClass = "63CNTT3",
+                Say ="Hello World",
+
+            };
+            Console.WriteLine(obj.Say+" by "+obj.name);
+
+        }
+
     }
 }

@@ -27,5 +27,8 @@ namespace learn
             get { return id; }
             set { id = value; }
         }
+        public virtual void Say() {
+            Console.WriteLine("I have simple people have name have age and id");
+        }
     }
 }
