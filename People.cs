@@ -10,7 +10,7 @@ namespace learn
     // class
     class People
     {
-        public string name;
+        public  string name;
         public int age;
         private string id;
         //Khoi tao hai tham so
