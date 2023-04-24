@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = learn
-build_property.ProjectDir = C:\Users\Aspire\Desktop\learn\
+build_property.ProjectDir = /home/klnt/Desktop/learn/C-/
