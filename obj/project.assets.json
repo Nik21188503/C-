@@ -8,26 +8,24 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Aspire\\.nuget\\packages\\": {}
+    "/home/klnt/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aspire\\Desktop\\learn\\learn.csproj",
+      "projectUniqueName": "/home/klnt/Desktop/learn/C-/learn.csproj",
       "projectName": "learn",
-      "projectPath": "C:\\Users\\Aspire\\Desktop\\learn\\learn.csproj",
-      "packagesPath": "C:\\Users\\Aspire\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aspire\\Desktop\\learn\\obj\\",
+      "projectPath": "/home/klnt/Desktop/learn/C-/learn.csproj",
+      "packagesPath": "/home/klnt/.nuget/packages/",
+      "outputPath": "/home/klnt/Desktop/learn/C-/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aspire\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/klnt/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
       }
     }
   }

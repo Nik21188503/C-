@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UzPPIG593lkwSZ67CWOlgK2v//X0IzI5BNou3FUM659+tr8vzCDo5UmSH1t/Zh+NsgfgOtic5NgrUUGuc3utCA==",
+  "dgSpecHash": "0xhA81pEqjdqdrSXFlrkQjInTJc4G+J7U/+dqucfPvE4+MFVcFTjZk2+JqMnEdmLIpzUyITcWLdvfyCsLOV08A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aspire\\Desktop\\learn\\learn.csproj",
+  "projectFilePath": "/home/klnt/Desktop/learn/C-/learn.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

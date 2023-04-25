@@ -36,27 +36,37 @@ namespace learn
                 Console.WriteLine("null");
             }
             Console.WriteLine(age);*/
-            Studen studen = new Studen();
-            studen.Say();
+            //Studen studen = new Studen();
+            //studen.Say();
+            /*NArrayList arrayList = new NArrayList();
+            arrayList.ArryListN();
+            aList Mylist = new aList();
+            Mylist.anList();*/
+            List<Staff> newList = new List<Staff>();
+            ListStaff.Input(ref newList);
+            string id = null;
+            ListStaff.SearchForID(id, ref newList);
+            System.Console.WriteLine("All Satff in Company");
+            ListStaff.Output(newList);
 
         }
 
         static void LearnArray()
         {
             int[] array = { 1, 2, 5, 4 };
-            int[] cpArray=new int[array.Length];
+            int[] cpArray = new int[array.Length];
 
             //method in arry have sum min max binarysearch sort revers ...copyto...
             Console.WriteLine(array.Sum());
-            Console.WriteLine(Array.BinarySearch(array,1));
-            array.CopyTo(cpArray,0);
-            foreach(int i in cpArray)
+            Console.WriteLine(Array.BinarySearch(array, 1));
+            array.CopyTo(cpArray, 0);
+            foreach (int i in cpArray)
             {
                 Console.WriteLine(i);
             }
             Array.Sort(array);
             Array.Reverse(array);
-            foreach(int i in array)
+            foreach (int i in array)
             {
                 Console.WriteLine(i);
             }
@@ -90,20 +100,20 @@ namespace learn
             }
             //tolower to upper viet hoa va viet thuong remove
             //Trim cat bo hai dau ki tu
-            Console.WriteLine("This is trim: "+PadLeft.Trim('*'));
+            Console.WriteLine("This is trim: " + PadLeft.Trim('*'));
             //substring cat chuoi 
             Console.WriteLine("Ten dem cua toi: " + name.Substring(name.IndexOf(' ') + 1, name.LastIndexOf(' ') - name.IndexOf(' ') - 1));
             //Joiin
-            Console.WriteLine("My favorite color is: "+String.Join(" ",MyFavoriteColor));
+            Console.WriteLine("My favorite color is: " + String.Join(" ", MyFavoriteColor));
             //worker with stringbulilder vs string binh thuong khi ta thay doi thanh chuoi khac thi ram no se cap phap bo nho moi cho chuoi lam cho hieu suat co the kem di con stringbulder thi ram k can cap phat bo nho ma viet tiep vao cho den khi day se cap phat bo nho moi
-            StringBuilder stringBuil=   new StringBuilder(50);
-            for(int i = 0; i < 1000; i++)
+            StringBuilder stringBuil = new StringBuilder(50);
+            for (int i = 0; i < 1000; i++)
             {
                 stringBuil.Append(i);
             }
             Console.WriteLine($"lenght stringbuilder is:{stringBuil.Length}");
             stringBuil.Remove(0, stringBuil.Length);
-            Console.WriteLine("My name is "+stringBuil.Append("Le Khac Ninh").ToString());
+            Console.WriteLine("My name is " + stringBuil.Append("Le Khac Ninh").ToString());
 
         }
         //ref <=> & c++ lam bien tham tti
@@ -112,20 +122,20 @@ namespace learn
         {
             T temp;
             temp = a;
-            a=b; b=temp;
+            a = b; b = temp;
         }
         //kieu vo danh
         static void AnonymousType()
         {
             var obj = new
             {
-                name="Le Khac Ninh",
+                name = "Le Khac Ninh",
                 age = 20,
                 nowMyClass = "63CNTT3",
-                Say ="Hello World",
+                Say = "Hello World",
 
             };
-            Console.WriteLine(obj.Say+" by "+obj.name);
+            Console.WriteLine(obj.Say + " by " + obj.name);
 
         }
 
