@@ -45,9 +45,11 @@ namespace learn
             List<Staff> newList = new List<Staff>();
             ListStaff.Input(ref newList);
             string id = null;
-            ListStaff.SearchForID(id, ref newList);
+            ListStaff.SearchForID(id, newList);
             System.Console.WriteLine("All Satff in Company");
             ListStaff.Output(newList);
+            SortedList<string, Staff> sortList = new SortedList<string, Staff>();
+            ListStaff.SortList(ref sortList, newList);
 
         }
 
