@@ -42,15 +42,25 @@ namespace learn
             arrayList.ArryListN();
             aList Mylist = new aList();
             Mylist.anList();*/
-            List<Staff> newList = new List<Staff>();
+            /*List<Staff> newList = new List<Staff>();
             ListStaff.Input(ref newList);
             string id = null;
             ListStaff.SearchForID(id, newList);
             System.Console.WriteLine("All Satff in Company");
             ListStaff.Output(newList);
             SortedList<string, Staff> sortList = new SortedList<string, Staff>();
-            ListStaff.SortList(ref sortList, newList);
-
+            ListStaff.SortList(ref sortList, newList);*/
+            /*int a = 5;
+            MTuple newTuple = new MTuple();
+            newTuple.MYTUPLE(); */
+            /*string name = "LE KhAC NiNH";
+            TextInfo text = CultureInfo.CurrentCulture.TextInfo;
+            name = text.ToLower(name);
+            System.Console.WriteLine(text.ToTitleCase(name));*/
+            string n;
+            List<string> myList = new List<string>();
+            EXception excep = new EXception();
+            excep.Validate(myList);
         }
 
         static void LearnArray()
